@@ -1,0 +1,25 @@
+{
+    "name": "necromant2005/tt-layout",
+    "type": "library",
+    "description": "Float human redable format",
+    "keywords": ["TrueSocialMetrics"],
+    "homepage": "https://github.com/necromant2005/tt-float-format",
+    "authors": [
+        {
+            "name": "Rostislav Mykhajliw",
+            "email": "necromant2005@gmail.com",
+            "homepage": "https://github.com/necromant2005",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+    ],
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Twee\\": "src/Twee"
+        }
+    }
+}
