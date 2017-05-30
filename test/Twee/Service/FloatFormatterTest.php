@@ -11,9 +11,10 @@ class FloatFormatterTest extends TestCase
         return [
             [0.00112, '0.0011'],
             [-0.00112, '-0.0011'],
-            [1.00112, '1.00'],
+            [1.00112, '1'],
             [100.112, '100.11'],
-            [0, '0.00'],
+            [23.00, '23'],
+            [0, '0'],
         ];
     }
 
@@ -24,5 +25,6 @@ class FloatFormatterTest extends TestCase
     {
         $service = new FloatFormatter();
         $this->assertEquals($formatted, $service->format($value));
+        $this->assertEquals(strlen($formatted), strlen($service->format($value)));
     }
 }

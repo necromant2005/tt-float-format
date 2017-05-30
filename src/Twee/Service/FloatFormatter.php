@@ -12,7 +12,16 @@ class FloatFormatter
         }
 
         $float = abs($float);
+        if ($float == 0) {
+            return '0';
+        }
+
         if ($float > 1) {
+            $formatted = sprintf('%0.' . $limit . 'f', $float);
+            if (rtrim(rtrim($formatted, '0')) == (string) ((int) $float)) {
+                return sprintf('%d', $float);
+            }
+
             return sprintf('%0.' . $limit . 'f', $float);
         }
         $string = sprintf('%0.20F', $float);
