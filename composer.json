@@ -1,9 +1,9 @@
 {
-    "name": "necromant2005/tt-float-format",
+    "name": "truesocialmetrics/float-format",
     "type": "library",
     "description": "Float human redable format",
     "keywords": ["TrueSocialMetrics"],
-    "homepage": "https://github.com/necromant2005/tt-float-format",
+    "homepage": "https://github.com/truesocialmetrics/float-format",
     "authors": [
         {
             "name": "Rostislav Mykhajliw",
@@ -15,7 +15,7 @@
     "repositories": [
     ],
     "require": {
-        "php": ">=7"
+        "php": ">=7.1"
     },
     "autoload": {
         "psr-4": {
