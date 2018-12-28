@@ -2,6 +2,9 @@
 VERSION 1  A FIRST RELEASE OF MIGRATED FLOAT FORMAT COMPONENT
 =============================================================
 
+   Version 1.2 - repostiory migration
+      28/12/2018 12:08  1.2.0  initial release
+
    Version 1.1 - show int values without mantisa
       30/05/2017 18:45  1.1.0  initial release
 
